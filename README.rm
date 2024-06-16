@@ -1,0 +1,66 @@
+# Projeto de ESP1A5 do IFSP
+
+## Alunos: Igor Ferreira Franco - SP3099695
+           Gustavo Butigeli Silva - SP3094596
+           Thiago Marcio Barone - SP3110826
+           Vitor Soares Coelho - SP3093174
+
+# Clone o repositório
+git clone https://github.com/Igor-Franco/ESP1A5.git
+
+link da base de dados: https://opendatasus.saude.gov.br/dataset/sim/resource/2a7269c5-91b2-4569-8b36-3ab775328555
+
+
+## Bibliotecas utilizadas
+
+1. Pandas 
+
+    Instalação: pip install pandas
+
+    Principais Funções:
+        pd.DataFrame(): Cria um DataFrame.
+        pd.read_csv(): Lê um arquivo CSV.
+        df.head(): Mostra as primeiras linhas do DataFrame.
+        df.describe(): Gera estatísticas descritivas.
+        df.groupby(): Agrupa dados.
+        df.merge(): Mescla DataFrames.
+        df.pivot_table(): Cria tabelas dinâmicas.
+
+2. NumPy
+    
+    Instalação: pip install numpy
+
+    Principais Funções:
+        np.array(): Cria arrays.
+        np.mean(): Calcula a média dos elementos.
+        np.median(): Calcula a mediana.
+        np.std(): Calcula o desvio padrão.
+        np.sum(): Soma dos elementos.
+        np.arange(): Cria uma sequência de números.
+        np.linspace(): Cria uma sequência de números espaçados uniformemente.
+
+3. Matplotlib
+
+    Instalação: pip install matplotlib
+
+    Principais Funções:
+        plt.plot(): Cria gráficos de linha.
+        plt.scatter(): Cria gráficos de dispersão.
+        plt.bar(): Cria gráficos de barras.
+        plt.hist(): Cria histogramas.
+        plt.xlabel(): Define o rótulo do eixo x.
+        plt.ylabel(): Define o rótulo do eixo y.
+        plt.title(): Define o título do gráfico.
+
+4. SciPy
+
+    Instalação: pip install scipy
+
+    Principais Funções:
+        scipy.stats.ttest_ind(): Teste t para a média de duas amostras independentes.
+        scipy.optimize.minimize(): Otimização de funções.
+        scipy.integrate.quad(): Integração de funções.
+        scipy.linalg.inv(): Inversão de matrizes.
+        scipy.fft.fft(): Transformada de Fourier.
+        scipy.stats.shapiro(): Teste de Shapiro-Wilk para normalidade.
+        scipy.stats.kstest(): Teste de Kolmogorov-Smirnov para uma amostra.
